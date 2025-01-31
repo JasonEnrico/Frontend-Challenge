@@ -1,0 +1,127 @@
+ .container {
+     max-width: 800px;
+     margin: auto;
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #f2f2fc;
+     border-radius: 12px;
+     box-shadow: 10px 4px 100px rgba(0, 0, 0, 0.2);
+ }
+
+ .dashboard-title {
+     font-size: 14px;
+     font-weight: bold;
+     text-align: left;
+     margin-bottom: 20px;
+ }
+
+ .dashboard-grid {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+     justify-content: center;
+ }
+
+ .dashboard-item {
+     display: flex;
+     justify-content: space-between;
+     /* Icon ke kanan */
+     align-items: center;
+     gap: 10px;
+     background: #fff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .dashboard-icon {
+     font-size: 40px;
+     color: black;
+ }
+
+
+ .dashboard-info h2 {
+     font-size: 20px;
+     font-weight: bold;
+     margin: 0;
+ }
+
+ .dashboard-info p {
+     margin: 0;
+     font-size: 11px;
+     color: gray;
+ }
+
+ .user-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+ }
+
+ .user-table tr {
+     border: none;
+ }
+
+ .user-table td {
+     padding: 10px;
+     vertical-align: middle;
+     border: none;
+ }
+
+ .table-container {
+     margin-top: 20px;
+     max-height: 600px;
+     overflow-y: auto;
+     border-radius: 8px;
+
+ }
+
+ .user-gender {
+     display: inline-block;
+     padding: 5px;
+     border-radius: 5px;
+     font-weight: bold;
+     font-size: 10px;
+ }
+
+ .user-gender.male {
+     background-color: #92b9e3;
+     color: white;
+ }
+
+ .user-gender.female {
+     background-color: #fba2d0;
+     color: white;
+ }
+
+ .user-profile {
+     text-align: center;
+ }
+
+ .user-image {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+ }
+
+ .user-name {
+     font-weight: bold;
+     margin: 0;
+ }
+
+ .user-email {
+     color: gray;
+     font-size: 14px;
+     margin: 0;
+ }
+
+ .user-flag {
+     width: 30px;
+     height: auto;
+ }
+
+ .user-address {
+     font-size: 14px;
+     font-weight: bold;
+     color: #333;
+ }
